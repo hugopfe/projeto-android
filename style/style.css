@@ -34,24 +34,26 @@ body {
 
 header {
     background-image: linear-gradient(to bottom, var(--color1), var(--color2) 80%);
-    padding: 20px;
-    min-height: 150px;
+    min-height: 100px;
+    text-align: center;
+    padding: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
 header > h1 {
-    font: normal 2.7em var(--font-main);
-    text-align: center;
+    font: normal 3em var(--font-main);
     color: white;
-    margin-top: 30px;
-    text-shadow: 2px 2px 0px #0000005d;
+    text-shadow: 2px 2px 2px #0000005d;
+    margin-bottom: 30px;
 }
 
 header > p {
-    text-align: center;
+    font-size: 1.2em;
     color: white;
     max-width: 500px;
-    text-shadow: 2px 2px 0px #0000005d;
+    text-shadow: 2px 2px 2px #0000005d;
     margin: auto;
 }
 
@@ -104,7 +106,7 @@ main img.tiny {
 
 main h1 {
     color: var(--color2);
-    font: normal 1.5em var(--font-highlight);
+    font: normal 1.8em var(--font-highlight);
     text-align: center;
 }
 
